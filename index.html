@@ -6,56 +6,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <title>First Portfolio</title>
-    <style>
-        /*
-            Palleta de Cores
-            #E63946 - Vermelho
-            #F1FAEE - Gelo
-            #A8DADC - Azull Bebe
-            #457B9D - Azul
-            #1D3557 - Azul escuro
-        */
-        body{
-            background-color: #F1FAEE;
-            color: #457B9D;
-        }
-        h1, h2, h3{
-            font-family: Anton, sans-serif;
-            color: #1D3557;
-            font-weight: 400;
-        }
-        a{
-            text-decoration: none;
-            color: #457B9D;
-        }
-        a:visited{
-            color: #457B9D;
-        }
-        p{
-            font-size: 20px;
-        }
-        #pic{
-            border-radius: 50%;
-            clip-path: circle();
-        }
-        .li1,.li2{
-            font-size: 18px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img id="pic" src="IMG_profile.jpg" alt="minha foto de perfil" width="400px" id="profile_pic"/>
-    <h2><strong>Lutti Tie Carlos do Amaral</strong></h2>
+    <div class="name-only">
+        <h2><strong>Lutti Tie Carlos do Amaral</strong></h2>
+    </div>
+    <div class="photo-name">
+        
+        <img id="pic" src="IMG_profile.jpg" alt="minha foto de perfil" width="400px" id="profile_pic"/>
+    </div>
+    <div class="box-desc">
+        <br>
+        <p id="locate">I'm brazilian and live in Curitiba PR</p>
+        <br>
+        <p>I have work experience in IT with:</p>
+        <ul id="list">
+            <li class="li1">Multi Dimensional Databases</li>
+            <li class="li2">MSQL ETL Scripts</li>
+            <li class="li3">Sql Server <strong>Integration</strong>/Reporting Services</li>
+            <li class="li4"><strong>Excel Macros</strong>, Pivot Tables and Dashboard Design</li>
+        </ul>
+    </div>
     <br>
-    <p id="locate">I'm brazilian and live in Curitiba PR</p>
-    <br>
-    <p>I have work experience in IT with:</p>
-    <ul id="list">
-        <li class="li1">Multi Dimensional Databases</li>
-        <li class="li2">MSQL ETL Scripts</li>
-        <li class="li3">Sql Server <strong>Integration</strong>/Reporting Services</li>
-        <li class="li4"><strong>Excel Macros</strong>, Pivot Tables and Dashboard Design</li>
-    </ul>
     <a href="#profile_pic">Recent Picture Here</a>
     <br>
     <a href="https://www.booooooom.com/" target="_blank">Current Hot Blog</a>

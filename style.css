@@ -1,0 +1,50 @@
+/*
+    Palleta de Cores
+    #E63946 - Vermelho
+    #F1FAEE - Gelo
+    #A8DADC - Azull Bebe
+    #457B9D - Azul
+    #1D3557 - Azul escuro
+*/
+* {
+    /* border: 1px solid red; */
+}
+
+body{
+    background-color: #F1FAEE;
+    color: #457B9D;
+    width: 800px;
+    margin: auto;
+}
+h1, h2, h3{
+    font-family: Anton, sans-serif;
+    color: #1D3557;
+    font-weight: 400;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #457B9D;
+}
+a:visited{
+    color: #457B9D;
+}
+p{
+    font-size: 20px;
+}
+#pic{
+    border-radius: 50%;
+    clip-path: circle();
+}
+.li1,.li2{
+    font-size: 18px;
+}
+.photo-name{
+    max-width: 400px;
+    display: inline-block;
+    background-color: aliceblue;
+}
+.box-desc{
+    max-width: 400px;
+    display: inline-block;
+}
